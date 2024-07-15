@@ -1,0 +1,102 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  background: #49ff85;
+}
+
+/* referencias cabecera */
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}
+
+h1,
+h3,
+h4 {
+  font-family: "Racing Sans One", sans-serif;
+}
+h2 {
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Utility classes */
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 10px;
+}
+
+.display-1 {
+  font-size: 144px;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+
+/* Navbar */
+#navbar {
+  border: 1px solid #000;
+  margin: 50px;
+  padding: 20px;
+}
+
+#navbar .logo {
+  float: left;
+  padding-top: 5px;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li {
+  float: left;
+  text-transform: uppercase;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  text-decoration: underline;
+}
+
+/* showcase */
