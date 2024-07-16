@@ -113,6 +113,43 @@ a {
   margin-bottom: 20px;
 }
 
+/* Product */
+.product-box {
+  border: 1px solid #000;
+  padding: 40px 20px;
+  height: 470px;
+  margin-top: 50px;
+}
+
+.product-box img {
+  width: 100%;
+}
+
+.product-1-img {
+  float: left;
+  width: 40%;
+}
+
+.product-1-text {
+  float: left;
+  width: 60%;
+  text-align: left;
+  padding: 80px 70px;
+}
+
+.product-2-img {
+  float: right;
+  width: 40%;
+  padding-top: 30px;
+}
+
+.product-2-text {
+  float: left;
+  width: 60%;
+  text-align: right;
+  padding: 80px 70px;
+}
+
 /* footer */
 #mainfooter {
   text-align: center;
