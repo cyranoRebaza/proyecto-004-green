@@ -150,6 +150,29 @@ a {
   padding: 80px 70px;
 }
 
+/* about */
+#about h2 {
+  padding-bottom: 50px;
+}
+.about-box-1 {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.about-box-1 h3 {
+  font-size: 60px;
+  padding-top: 90px;
+  padding-bottom: 20px;
+  line-height: 1em;
+}
+
+.about-box-2 {
+  float: right;
+  width: 50%;
+  padding: 20px;
+}
+
 /* footer */
 #mainfooter {
   text-align: center;
